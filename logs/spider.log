@@ -1,0 +1,116 @@
+2025-12-02 15:15:38,203 - INFO - 载入已有 0 条记录，避免重复。
+2025-12-02 15:15:41,719 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:42,914 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:44,018 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:44,377 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:45,524 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:46,241 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:46,768 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:48,032 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:56,964 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:57,365 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:57,870 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:58,382 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:58,894 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:59,372 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:15:59,747 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:16:00,178 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:16:00,576 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:16:00,989 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:16:01,446 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:16:01,855 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"host_venue is not a valid select field. Valid fields for select are: id, doi, title, display_name, relevance_score, publication_year, publication_
+2025-12-02 15:21:12,018 - INFO - 载入已有 0 条记录，避免重复。
+2025-12-02 15:22:31,244 - INFO - 载入已有 0 条记录，避免重复。
+2025-12-02 15:29:50,815 - INFO - 载入已有 0 条记录，避免重复。
+2025-12-02 15:32:19,354 - INFO - 载入已有 0 条记录，避免重复。
+2025-12-05 00:20:07,949 - INFO - 载入已有 0 条记录，避免重复。
+2025-12-05 01:09:38,676 - INFO - 载入已有 0 条记录，避免重复。
+2025-12-05 01:09:58,140 - INFO - 载入已有 0 条记录，避免重复。
+2025-12-05 01:40:03,215 - INFO - 爬取完成，总计写入 0 条。
+2025-12-05 01:41:54,755 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-05 01:41:57,466 - INFO - 爬取完成，总计写入 0 条。
+2025-12-05 01:42:16,562 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-05 01:44:07,825 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-05 01:44:40,211 - INFO - >>> 检测到已有 65 条记录，将从 offset=65 开始续爬
+2025-12-05 01:46:05,293 - INFO - >>> 检测到已有 285 条记录，将从 offset=285 开始续爬
+2025-12-05 02:31:26,915 - INFO - 爬取完成，总计写入 8915 条。
+2025-12-05 11:32:09,007 - INFO - >>> 检测到已有 8915 条记录，将从 offset=8915 开始续爬
+2025-12-05 22:52:14,309 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-05 22:54:56,236 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-06 00:29:44,111 - INFO - 爬取完成，总计写入 9000 条。
+2025-12-06 22:52:05,496 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-06 22:52:06,573 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:06,903 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:07,220 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:07,542 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:07,861 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:08,205 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:08,522 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:08,838 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:09,166 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:09,510 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:09,823 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:10,155 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:10,566 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:10,915 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:11,237 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:52:11,575 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:53:08,703 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-06 22:53:09,720 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:53:10,040 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:53:10,359 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:53:10,676 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:53:11,023 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:53:11,342 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:53:11,659 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"until_publication_date is not a valid field. Valid fields are underscore or hyphenated versions of: abstract.search, abstract.search.no_stem, apc_
+2025-12-06 22:54:00,522 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-06 22:54:01,936 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"Value for param publication_year must be a number."}
+
+2025-12-06 22:54:02,246 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"Value for param publication_year must be a number."}
+
+2025-12-06 22:54:02,557 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"Value for param publication_year must be a number."}
+
+2025-12-06 22:54:02,855 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"Value for param publication_year must be a number."}
+
+2025-12-06 22:54:03,197 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"Value for param publication_year must be a number."}
+
+2025-12-06 22:54:03,655 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"Value for param publication_year must be a number."}
+
+2025-12-06 22:54:24,972 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-06 23:15:38,014 - INFO - 爬取完成，总计写入 5000 条。
+2025-12-07 00:13:54,700 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-07 00:15:37,332 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-07 00:15:37,348 - INFO - --- 正在抓取 2017 年的数据 ---
+2025-12-07 00:18:38,922 - INFO - 2017 年完成，共写入 555 条
+2025-12-07 00:18:38,926 - INFO - --- 正在抓取 2018 年的数据 ---
+2025-12-07 00:21:28,221 - INFO - 2018 年完成，共写入 555 条
+2025-12-07 00:21:28,225 - INFO - --- 正在抓取 2019 年的数据 ---
+2025-12-07 00:24:23,275 - INFO - 2019 年完成，共写入 555 条
+2025-12-07 00:24:23,276 - INFO - --- 正在抓取 2020 年的数据 ---
+2025-12-07 00:27:22,117 - INFO - 2020 年完成，共写入 555 条
+2025-12-07 00:27:22,119 - INFO - --- 正在抓取 2021 年的数据 ---
+2025-12-07 00:30:24,465 - INFO - 2021 年完成，共写入 555 条
+2025-12-07 00:30:24,467 - INFO - --- 正在抓取 2022 年的数据 ---
+2025-12-07 00:33:28,144 - INFO - 2022 年完成，共写入 555 条
+2025-12-07 00:33:28,146 - INFO - --- 正在抓取 2023 年的数据 ---
+2025-12-07 00:36:39,709 - INFO - 2023 年完成，共写入 555 条
+2025-12-07 00:36:39,712 - INFO - --- 正在抓取 2024 年的数据 ---
+2025-12-07 00:39:48,275 - INFO - 2024 年完成，共写入 555 条
+2025-12-07 00:39:48,277 - INFO - --- 正在抓取 2025 年的数据 ---
+2025-12-07 00:42:45,167 - INFO - 2025 年完成，共写入 555 条
+2025-12-07 00:42:45,170 - INFO - >>> 按年份采集完成，总计写入 4995 条
+2025-12-07 00:42:45,177 - INFO - 爬取完成，总计写入 4995 条。
+2025-12-12 23:35:30,169 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-12 23:35:30,184 - INFO - Requesting page=1, delivered=0
+2025-12-12 23:35:30,966 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"Invalid query parameter in primary_location.source.display_name!=\"Energies\"."}
+
+2025-12-12 23:35:30,966 - INFO - 爬取完成，总计写入 0 条。
+2025-12-12 23:37:24,516 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-12 23:37:24,532 - INFO - Requesting page=1, delivered=0
+2025-12-12 23:37:25,351 - WARNING - OpenAlex 请求失败 400 {"error":"Invalid query parameters error.","message":"Invalid query parameter in source.id!=S4306402038."}
+
+2025-12-12 23:37:25,351 - INFO - 爬取完成，总计写入 0 条。
+2025-12-12 23:38:55,085 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-12 23:40:31,142 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-12 23:41:05,526 - INFO - >>> 未发现 CSV 或未启用断点续爬，将从头开始并创建新文件
+2025-12-12 23:41:05,539 - INFO - --- 正在抓取 2017 年的数据 ---
