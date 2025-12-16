@@ -9,6 +9,7 @@ from config import (
     PER_PAGE,
     SLEEP_BETWEEN_REQ,
 )
+
 from src.utils import sleep_with_jitter
 
 
@@ -17,15 +18,34 @@ class OpenAlexClient:
         self.session = session or requests.Session()
         self.logger = logger or logging.getLogger("ai_energy_spider")
 
+    # --------------------------
+    #  构造基本过滤
+    # --------------------------
+    def _build_filters(self, year: int) -> str:
+        filters = [
+            f"publication_year:{year}",
+            "language:en",
+            "type:journal-article",
+        ]
+        return ",".join(filters)
+
+    # --------------------------
+    #  构造 search 查询（摘要 / 关键词 / 标题）
+    # --------------------------
     def _build_search_queries(self, ai_terms, energy_terms):
         combos = []
         for ai in ai_terms:
-            for energy in energy_terms:
-                combos.append(f'("{ai}" AND "{energy}")')
+            for en in energy_terms:
+                # abstract.search 可以精准命中摘要
+                combos.append(f'(abstract.search:"{ai}" AND abstract.search:"{en}")')
+                # search 匹配标题 + 摘要 + 关键词
+                combos.append(f'(search:"{ai}" AND search:"{en}")')
 
+        # 按长度拆成多个 search
         queries = []
         chunk = []
         char_count = 0
+
         for combo in combos:
             if char_count + len(combo) + len(chunk) > 900 and chunk:
                 queries.append(" OR ".join(chunk))
@@ -36,8 +56,12 @@ class OpenAlexClient:
 
         if chunk:
             queries.append(" OR ".join(chunk))
-        return queries or ['"artificial intelligence" AND "energy"']
-    
+
+        return queries
+
+    # --------------------------
+    #   主迭代器：按年份抓
+    # --------------------------
     def iter_works(
         self,
         ai_terms,
@@ -48,7 +72,6 @@ class OpenAlexClient:
         end_year: int = 2025,
     ) -> Iterator[Dict]:
 
-        # 计算每年需要抓多少
         years = list(range(start_year, end_year + 1))
         per_year_target = max_results // len(years)
 
@@ -59,23 +82,24 @@ class OpenAlexClient:
             "sort": "publication_year:desc",
         }
 
-        # 遍历每一年
         for year in years:
             self.logger.info(f"--- 正在抓取 {year} 年的数据 ---")
-            params["filter"] = f"publication_year:{year}"
+            params["filter"] = self._build_filters(year)
 
             year_count = 0
             page = 1
 
-            for query in self._build_search_queries(ai_terms, energy_terms):
-                params["search"] = query
+            search_chunks = self._build_search_queries(ai_terms, energy_terms)
+
+            for search_query in search_chunks:
+                params["search"] = search_query
 
                 while year_count < per_year_target and delivered < max_results:
                     params["page"] = page
-                    resp = self.session.get(OPENALEX_BASE, params=params, timeout=30)
 
+                    resp = self.session.get(OPENALEX_BASE, params=params, timeout=30)
                     if resp.status_code != 200:
-                        self.logger.warning("OpenAlex 请求失败 %s %s", resp.status_code, resp.text[:200])
+                        self.logger.warning(f"OpenAlex 请求失败 {resp.status_code} {resp.text[:200]}")
                         break
 
                     data = resp.json()
@@ -87,16 +111,16 @@ class OpenAlexClient:
                         yield item
                         year_count += 1
                         delivered += 1
+
                         if year_count >= per_year_target or delivered >= max_results:
                             break
 
                     page += 1
                     sleep_with_jitter(SLEEP_BETWEEN_REQ)
 
-                # 跳到下一个 query
                 if delivered >= max_results:
                     break
 
             self.logger.info(f"{year} 年完成，共写入 {year_count} 条")
 
-        self.logger.info(">>> 按年份采集完成，总计写入 %d 条", delivered)
+        self.logger.info(f">>> 采集完成，共写入 {delivered} 条")
